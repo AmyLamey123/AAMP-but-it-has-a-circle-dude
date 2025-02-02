@@ -82,7 +82,7 @@ function draw() {
   translate (width/2, height/2)
   beginShape()
   for (var i = 0; i<spectrum.length; i++){
-    stroke(i*10000,255,255)
+    stroke(i*1.5,255,255)
     var angle = map(i,0,spectrum.length,0,360)
     var amp = spectrum[i];
     var r = map(amp,0,256,100,200);
