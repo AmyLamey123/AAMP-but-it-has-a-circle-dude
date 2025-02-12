@@ -42,6 +42,10 @@ function setup() {
   dropdown.option('Bfg Division');
   dropdown.option('Who Can It Be Now');
   dropdown.option('I Am Alone');
+  dropdown.option('Phobos Anomaly');
+  dropdown.option('I Sawed The Demons');
+  dropdown.option('The Imps Song');
+  dropdown.option('Hiding The Secrets');
   dropdown.changed(songChanged)
   
   Songs=[dropdown.selected(), 'mp3']
